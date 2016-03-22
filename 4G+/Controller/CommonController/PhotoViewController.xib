@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoViewController">
+            <connections>
+                <outlet property="label1" destination="EqH-nH-J49" id="G2G-xw-xRi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您可以在“隐私设置中”启用访问" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dG-OF-5b7">
+                    <rect key="frame" x="0.0" y="286" width="375" height="25"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="ypU-5o-qGi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="此应用程序没有权限来访问您的照片或视频" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqH-nH-J49">
+                    <rect key="frame" x="0.0" y="239" width="375" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="EjB-qz-9hJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="16"/>
+                    <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lock.png" translatesAutoresizingMaskIntoConstraints="NO" id="ckJ-Ch-g04">
+                    <rect key="frame" x="137" y="96" width="100" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="AjM-OF-xXd"/>
+                        <constraint firstAttribute="width" secondItem="ckJ-Ch-g04" secondAttribute="height" multiplier="5:6" id="ZLM-jg-g9p"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ckJ-Ch-g04" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="96" id="89g-FD-sQR"/>
+                <constraint firstItem="EqH-nH-J49" firstAttribute="top" secondItem="ckJ-Ch-g04" secondAttribute="bottom" constant="23" id="BNa-Kv-Eoi"/>
+                <constraint firstItem="EqH-nH-J49" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GR1-rz-5WR"/>
+                <constraint firstAttribute="trailing" secondItem="EqH-nH-J49" secondAttribute="trailing" id="Qyn-Ba-HDW"/>
+                <constraint firstItem="ckJ-Ch-g04" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VaL-vd-oQw"/>
+                <constraint firstAttribute="trailing" secondItem="8dG-OF-5b7" secondAttribute="trailing" id="mVQ-za-4oA"/>
+                <constraint firstItem="8dG-OF-5b7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="p4G-p2-8t2"/>
+                <constraint firstItem="8dG-OF-5b7" firstAttribute="top" secondItem="EqH-nH-J49" secondAttribute="bottom" id="qhd-ya-2PP"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="322.5" y="115.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lock.png" width="98" height="124"/>
+    </resources>
+</document>

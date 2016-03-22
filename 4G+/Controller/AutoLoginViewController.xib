@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AutoLoginViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_Bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="qM0-oE-ldE">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qM0-oE-ldE" secondAttribute="bottom" id="VrX-Zo-nMC"/>
+                <constraint firstItem="qM0-oE-ldE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oRD-Tf-dDa"/>
+                <constraint firstAttribute="trailing" secondItem="qM0-oE-ldE" secondAttribute="trailing" id="rT9-qK-YqE"/>
+                <constraint firstItem="qM0-oE-ldE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="z37-L0-Nn8"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="466" y="327"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="login_Bg.png" width="375" height="667"/>
+    </resources>
+</document>

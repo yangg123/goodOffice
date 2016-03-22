@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomePageVC">
+            <connections>
+                <outlet property="_priceBtn" destination="m0c-xy-0wN" id="EEy-on-U9q"/>
+                <outlet property="_regionBtn" destination="Vk2-9H-TBt" id="EUe-sD-QiS"/>
+                <outlet property="_squareBtn" destination="TFD-xh-Duu" id="q6I-sb-RsH"/>
+                <outlet property="_teseBtn" destination="KIT-bt-0Yb" id="VUg-VH-hdR"/>
+                <outlet property="bigTableView" destination="jnA-aS-HgH" id="69L-3W-IyI"/>
+                <outlet property="tableView" destination="jxe-Y0-iWw" id="3n1-4E-1Hq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1i1-fA-C5m">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                    <subviews>
+                        <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIT-bt-0Yb">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="KIT-bt-0Yb" secondAttribute="height" multiplier="80:39" id="gVp-il-wVW"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="-23" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-73" maxY="0.0"/>
+                            <state key="normal" title="特色" image="down_unfold.png"/>
+                            <connections>
+                                <action selector="filteBtnClick:" destination="-1" eventType="touchUpInside" id="1Kw-AB-lXc"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kLB-MJ-ZvD" userLabel="line1">
+                            <rect key="frame" x="80" y="7" width="0.5" height="25"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="0.5" id="OAq-XS-1Un"/>
+                                <constraint firstAttribute="height" constant="25" id="lKT-ft-JVP"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vk2-9H-TBt">
+                            <rect key="frame" x="80" y="0.0" width="80" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Vk2-9H-TBt" secondAttribute="height" multiplier="80:39" id="edU-f6-ki0"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="-23" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-73" maxY="0.0"/>
+                            <state key="normal" title="区域" image="down_unfold.png"/>
+                            <connections>
+                                <action selector="filteBtnClick:" destination="-1" eventType="touchUpInside" id="2kF-OE-LMl"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srk-Ar-M5a" userLabel="line2">
+                            <rect key="frame" x="160" y="7" width="0.5" height="25"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0c-xy-0wN">
+                            <rect key="frame" x="160" y="0.0" width="80" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="m0c-xy-0wN" secondAttribute="height" multiplier="80:39" id="pdr-HR-eL5"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="-23" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-73" maxY="0.0"/>
+                            <state key="normal" title="价格" image="down_unfold.png"/>
+                            <connections>
+                                <action selector="filteBtnClick:" destination="-1" eventType="touchUpInside" id="Kff-S2-mO7"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdF-P8-ieJ" userLabel="line3">
+                            <rect key="frame" x="240" y="7" width="0.5" height="25"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFD-xh-Duu">
+                            <rect key="frame" x="240" y="0.0" width="80" height="39"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="TFD-xh-Duu" secondAttribute="height" multiplier="80:39" id="KFf-Wi-DLQ"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="-23" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="-73" maxY="0.0"/>
+                            <state key="normal" title="面积" image="down_unfold.png"/>
+                            <connections>
+                                <action selector="filteBtnClick:" destination="-1" eventType="touchUpInside" id="Fuv-9C-IFl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Vk2-9H-TBt" firstAttribute="top" secondItem="1i1-fA-C5m" secondAttribute="top" id="1Is-XA-xOL"/>
+                        <constraint firstItem="m0c-xy-0wN" firstAttribute="height" secondItem="KIT-bt-0Yb" secondAttribute="height" id="21M-9h-tjl"/>
+                        <constraint firstItem="m0c-xy-0wN" firstAttribute="width" secondItem="KIT-bt-0Yb" secondAttribute="width" id="5EQ-B9-oGQ"/>
+                        <constraint firstItem="hdF-P8-ieJ" firstAttribute="centerY" secondItem="1i1-fA-C5m" secondAttribute="centerY" id="6tW-IV-FDW"/>
+                        <constraint firstItem="srk-Ar-M5a" firstAttribute="centerY" secondItem="1i1-fA-C5m" secondAttribute="centerY" id="76h-Nc-FW7"/>
+                        <constraint firstItem="kLB-MJ-ZvD" firstAttribute="centerY" secondItem="1i1-fA-C5m" secondAttribute="centerY" id="7Ug-Zb-p7W"/>
+                        <constraint firstItem="Vk2-9H-TBt" firstAttribute="height" secondItem="KIT-bt-0Yb" secondAttribute="height" id="BzV-ib-wxG"/>
+                        <constraint firstAttribute="trailing" secondItem="TFD-xh-Duu" secondAttribute="trailing" id="C6n-97-KJQ"/>
+                        <constraint firstItem="m0c-xy-0wN" firstAttribute="leading" secondItem="Vk2-9H-TBt" secondAttribute="trailing" id="E1C-vS-eFc"/>
+                        <constraint firstItem="TFD-xh-Duu" firstAttribute="leading" secondItem="m0c-xy-0wN" secondAttribute="trailing" id="Fbp-vF-3aj"/>
+                        <constraint firstItem="KIT-bt-0Yb" firstAttribute="top" secondItem="1i1-fA-C5m" secondAttribute="top" id="Fqz-dU-9kg"/>
+                        <constraint firstItem="hdF-P8-ieJ" firstAttribute="height" secondItem="kLB-MJ-ZvD" secondAttribute="height" id="GB4-bc-TCT"/>
+                        <constraint firstItem="hdF-P8-ieJ" firstAttribute="width" secondItem="kLB-MJ-ZvD" secondAttribute="width" id="GZU-Cs-X2B"/>
+                        <constraint firstItem="srk-Ar-M5a" firstAttribute="height" secondItem="kLB-MJ-ZvD" secondAttribute="height" id="Hx3-49-ahS"/>
+                        <constraint firstItem="KIT-bt-0Yb" firstAttribute="leading" secondItem="1i1-fA-C5m" secondAttribute="leading" id="KGe-yA-yn4"/>
+                        <constraint firstItem="kLB-MJ-ZvD" firstAttribute="leading" secondItem="KIT-bt-0Yb" secondAttribute="trailing" id="Mhh-VZ-VzB"/>
+                        <constraint firstItem="Vk2-9H-TBt" firstAttribute="leading" secondItem="KIT-bt-0Yb" secondAttribute="trailing" id="Mj4-h5-nM7"/>
+                        <constraint firstItem="hdF-P8-ieJ" firstAttribute="leading" secondItem="m0c-xy-0wN" secondAttribute="trailing" id="N3X-sf-EHG"/>
+                        <constraint firstItem="TFD-xh-Duu" firstAttribute="width" secondItem="KIT-bt-0Yb" secondAttribute="width" id="RLS-6F-iGq"/>
+                        <constraint firstItem="srk-Ar-M5a" firstAttribute="width" secondItem="kLB-MJ-ZvD" secondAttribute="width" id="RSn-FZ-rK3"/>
+                        <constraint firstItem="KIT-bt-0Yb" firstAttribute="width" secondItem="1i1-fA-C5m" secondAttribute="width" multiplier="1:4" id="StK-9h-dh1"/>
+                        <constraint firstItem="TFD-xh-Duu" firstAttribute="top" secondItem="1i1-fA-C5m" secondAttribute="top" id="Wz4-xu-GSE"/>
+                        <constraint firstItem="Vk2-9H-TBt" firstAttribute="width" secondItem="KIT-bt-0Yb" secondAttribute="width" id="XX3-70-Ltd"/>
+                        <constraint firstItem="srk-Ar-M5a" firstAttribute="leading" secondItem="Vk2-9H-TBt" secondAttribute="trailing" id="aiD-Al-BDq"/>
+                        <constraint firstItem="m0c-xy-0wN" firstAttribute="top" secondItem="1i1-fA-C5m" secondAttribute="top" id="dv0-L3-fRD"/>
+                        <constraint firstItem="TFD-xh-Duu" firstAttribute="height" secondItem="KIT-bt-0Yb" secondAttribute="height" id="j4a-ZB-YzV"/>
+                        <constraint firstAttribute="width" secondItem="1i1-fA-C5m" secondAttribute="height" multiplier="320:39" id="xpo-bQ-brq"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jxe-Y0-iWw" userLabel="smallTable View">
+                    <rect key="frame" x="0.0" y="39" width="320" height="529"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="0qY-ty-ZEM"/>
+                        <outlet property="delegate" destination="-1" id="LJN-6l-WG2"/>
+                    </connections>
+                </tableView>
+                <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jnA-aS-HgH" userLabel="bigTable View">
+                    <rect key="frame" x="0.0" y="39" width="320" height="529"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="BAw-yP-Eu6"/>
+                        <outlet property="delegate" destination="-1" id="nG3-vr-0nR"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jnA-aS-HgH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2fg-2f-xws"/>
+                <constraint firstAttribute="trailing" secondItem="jnA-aS-HgH" secondAttribute="trailing" id="9Lp-hT-hKz"/>
+                <constraint firstItem="jnA-aS-HgH" firstAttribute="top" secondItem="1i1-fA-C5m" secondAttribute="bottom" id="Efx-5W-686"/>
+                <constraint firstItem="1i1-fA-C5m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="PYB-Bz-NdT"/>
+                <constraint firstItem="jxe-Y0-iWw" firstAttribute="top" secondItem="1i1-fA-C5m" secondAttribute="bottom" id="SK2-Zp-Vfb"/>
+                <constraint firstAttribute="bottom" secondItem="jxe-Y0-iWw" secondAttribute="bottom" id="TuS-tq-nWl"/>
+                <constraint firstAttribute="trailing" secondItem="jxe-Y0-iWw" secondAttribute="trailing" id="Wgt-qe-XLC"/>
+                <constraint firstAttribute="trailing" secondItem="1i1-fA-C5m" secondAttribute="trailing" id="X4c-wH-4xm"/>
+                <constraint firstItem="jxe-Y0-iWw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ptN-hv-P61"/>
+                <constraint firstItem="1i1-fA-C5m" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="wUN-iz-ckb"/>
+                <constraint firstAttribute="bottom" secondItem="jnA-aS-HgH" secondAttribute="bottom" id="wVy-Q2-2Sq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="303" y="53"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="down_unfold.png" width="8" height="6"/>
+    </resources>
+</document>

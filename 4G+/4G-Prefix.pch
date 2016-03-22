@@ -1,0 +1,38 @@
+//
+//  4G.pch
+//  4G
+//
+//  Created by yg on 16/1/21.
+//  Copyright © 2016年 西米科技. All rights reserved.
+//
+
+
+#ifndef _G_pch
+#define _G_pch
+
+#import <UIKit/UIKit.h>
+#import "TKAddressBook.h"
+#import <Foundation/Foundation.h>
+#import "Publish.h"
+#import "UIColor+ColorTranstion.h"
+#import "UIViewExt.h"
+#import "MBProgressHUD+Add.h"
+#import "MBProgressHUD.h"
+#import "Enum.h"
+#import "MainViewController.h"
+#import "YKMacro.h"
+#import "YKToast.h"
+#import "BottomMenuView.h"
+#import "NSDate+Category.h"
+#import "UIView+Circle.h"
+#import "NSString+MessageDisplayTime.h"
+#import "NSString+MD5.h"
+#import "NonInfoView.h"
+#import "YGAlertView.h"
+#import "NSDate+Category.h"
+#import "SCNetworkMonitor.h"
+#import "NSString+TKUtilities.h"
+#import "NSString+Space.h"
+#import "DataCenter.h"
+
+#endif /* _G_pch */

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "80309338-17C9-4C5A-9BA8-0FBDC633ED15",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582" : "IOS_4G\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "4G",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "4G.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.112",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582"
+    }
+  ]
+}

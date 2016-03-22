@@ -1,0 +1,27 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582" : {
+      "DVTSourceControlWorkingCopyRepositoryBranchesLocationKey" : "repository\/IOS_4G\/branches",
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "repository\/IOS_4G\/tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "repository\/IOS_4G\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "44B6C82F-5E1E-457C-B901-6BB02C660017",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582" : "%E5%A5%BD%E5%8A%9E\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GoodOffice",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GoodOffice.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.112",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3ea53647-57a3-124c-a1e0-3c5175050cf9++3582"
+    }
+  ]
+}

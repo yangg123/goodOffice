@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProjectType</key>
+	<string>1</string>
+	<key>ProjectData</key>
+	<array>
+		<dict>
+			<key>gServiceURL</key>
+			<string>http://121.40.115.202:8080/</string>
+			<key>gVersion</key>
+			<string>夜客（企业版正式环境）</string>
+			<key>gTrendURL</key>
+			<string>https://wb.360yeke.com/</string>
+			<key>gQiNiuURL</key>
+			<string>http://7xowsw.com2.z0.glb.qiniucdn.com/</string>
+			<key>gShortUrl_Head</key>
+			<string>http://api.360yeke.com/user/sharePage?phone=</string>
+			<key>gBundleId</key>
+			<string>com.yeke.enterprise</string>
+			<key>gBaiduKey</key>
+			<string>FahTzSPdEjnAQak7mEpUA1CS</string>
+		</dict>
+		<dict>
+			<key>gServiceURL</key>
+			<string>http://121.40.115.202:8080/</string>
+			<key>gVersion</key>
+			<string>夜客（appstore_v1.0）</string>
+			<key>gTrendURL</key>
+			<string>https://wb.360yeke.com/</string>
+			<key>gQiNiuURL</key>
+			<string>http://7xowsw.com2.z0.glb.qiniucdn.com/</string>
+			<key>gShortUrl_Head</key>
+			<string>http://api.360yeke.com/user/sharePage?phone=</string>
+			<key>gBundleId</key>
+			<string>www.360yeke.com</string>
+			<key>gBaiduKey</key>
+			<string>kvUoW9xSC2HzNjCMrARO3OXZ</string>
+		</dict>
+		<dict>
+			<key>gServiceURL</key>
+			<string>https://trunk.360yeke.com/</string>
+			<key>gVersion</key>
+			<string>夜客（测试环境）</string>
+			<key>gTrendURL</key>
+			<string>https://feed.360yeke.com/</string>
+			<key>gQiNiuURL</key>
+			<string>http://7xnpf7.com2.z0.glb.qiniucdn.com/</string>
+			<key>gShortUrl_Head</key>
+			<string>http://trunk.360yeke.com/user/sharePage?phone=</string>
+			<key>gBundleId</key>
+			<string>www.yekeEnterprise.com</string>
+			<key>gBaiduKey</key>
+			<string>FahTzSPdEjnAQak7mEpUA1CS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
